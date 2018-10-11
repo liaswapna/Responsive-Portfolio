@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: #777777;
+}
+.head {
+    background-color: #ffffff;
+    font-family: 'Georgia', 'Times', Times New Roman, serif;
+    width: 100%;
+    height: 60px;
+    border-color: #dddddd;
+}
+.name {
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-left: 100px;
+    background-color: #4aaaa5;
+    height: 60px;
+    font-size: 20px;
+}
+.menu ul {
+    margin: 0;
+    float: right;
+    padding: 20px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+a:hover {
+    background-color: #4aaaa5; 
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #777777;
+}
+.contact-info {
+    background-image: url(../images/gravel.png);
+    width: 100%;
+    float: left;
+    height: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.info {
+    width: 960px;
+    background-color: #ffffff;
+    /* margin: 0 auto; */
+    height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left:100px;
+    margin-bottom: 100px;
+    border: 1px solid #dddddd;
+}
+.info h1 {
+    color: #4aaaa5;
+    font-size: 20px;
+}
+.line-about {
+    background-color: #777777;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.info img {
+    width: 200px;
+    height: 170px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+p {
+    line-height: 30px;
+}
+.para2 {
+    clear: both;
+    overflow: auto;
+}
+footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    clear: both;
+    overflow: auto;
+    height: 60px;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+footer .line{
+    background-color: #4aaaa5;
+    height: 5px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;  
+}
+footer #copy {
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 15px;
+}
+/* protfolio form */
+.container {
+    clear: both;
+    overflow: auto;
+}
+.contain-image-text {
+    position: relative;
+    height: 180px;
+    width:300px;
+    float:left;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.port-image {
+    height: 180px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+}
+.image-text {
+    background-color: #4aaaa5;
+    padding: 10px;
+    width:200px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+/* contact form */
+.form {
+    clear: both;
+    overflow: auto;
+    line-height: 30px;
+}
+textarea {
+    width: 920px;
+}
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+}
+button:hover {
+    background-color: aquamarine;
+}
+button:active {
+    background-color: aqua;
+}
+
+/* Media Queries */
+@media screen and (max-width: 980px) {
+    .name{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .info{
+        width:80%;
+        margin-left:5%;
+        height: auto;
+    }
+    .contain-image-text{
+        width:40%;
+    }
+    textarea {
+        width: 100%;
+    }
+}
+/* @media screen and (max-width: 980px) {
+    .name{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .menu {
+         text-align: right;
+    }
+    .menu ul {
+        width:60%;
+    }
+    .info {
+        width:80%;
+        align-content: center;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .foot {
+        height: auto;
+    }
+    #image {
+        width:40%;
+        float:left;
+    }
+    textarea {
+        width: 100%;
+    }
+    .contain-image-text{
+        width:48%;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .name{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .menu {
+         text-align: right;
+    }
+    .menu ul {
+        width:60%;
+    }
+    .info {
+        width:90%;
+        align-content: center;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .foot {
+        height: auto;
+    }
+    #image {
+        width:40%;
+        float:left;
+    }
+    textarea {
+        width: 100%;
+    }
+    .contain-image-text{
+        width:48%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .name{
+        width: 100%;
+        margin-left: 0;
+    }
+    .menu {
+        text-align: center;
+    }
+    .menu ul {
+        width:100%;
+    }
+    .info {
+        width:90%;
+        align-content: center;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .contact-info {
+        height: auto;
+    }
+    .foot {
+        height: auto;
+    }
+    p {
+        clear: both;
+    }
+    #image {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    textarea {
+        width: 100%;
+    }
+}
