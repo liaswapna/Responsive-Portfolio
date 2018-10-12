@@ -138,7 +138,7 @@ footer #copy {
     line-height: 30px;
 }
 textarea {
-    width: 920px;
+    width: 910px;
 }
 button {
     margin-top: 20px;
@@ -161,47 +161,17 @@ button:active {
     }
     .info{
         width:80%;
-        margin-left:5%;
-        height: auto;
+        margin-left:40px;
+        height: 80%;
     }
     .contain-image-text{
         width:40%;
     }
     textarea {
         width: 100%;
+        border: 1px solid #777777;
     }
 }
-/* @media screen and (max-width: 980px) {
-    .name{
-        width: 30%;
-        margin-left: 10px;
-    }
-    .menu {
-         text-align: right;
-    }
-    .menu ul {
-        width:60%;
-    }
-    .info {
-        width:80%;
-        align-content: center;
-        height: auto;
-        margin-bottom: 100px;
-    }
-    .foot {
-        height: auto;
-    }
-    #image {
-        width:40%;
-        float:left;
-    }
-    textarea {
-        width: 100%;
-    }
-    .contain-image-text{
-        width:48%;
-    }
-} */
 
 @media screen and (max-width: 768px) {
     .name{
@@ -218,7 +188,7 @@ button:active {
         width:90%;
         align-content: center;
         height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 400px;
     }
     .foot {
         height: auto;
@@ -229,6 +199,7 @@ button:active {
     }
     textarea {
         width: 100%;
+        border: 1px solid #777777;
     }
     .contain-image-text{
         width:48%;
@@ -249,6 +220,7 @@ button:active {
         width:90%;
         align-content: center;
         height: auto;
+        margin-left: 20px;
         margin-bottom: 100px;
     }
     .contact-info {
@@ -268,5 +240,12 @@ button:active {
     }
     textarea {
         width: 100%;
+        border: 1px solid #777777;
+    }
+    .contain-image-text,.image-text {
+        width: 100%;
+    }
+    .port-image{
+        width:100% ! important;
     }
 }
